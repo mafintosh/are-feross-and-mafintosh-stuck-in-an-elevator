@@ -1,3 +1,3 @@
 module.exports = function () {
-  return true // because we are currently stuck!
+  return false // we've been rescued!
 }
