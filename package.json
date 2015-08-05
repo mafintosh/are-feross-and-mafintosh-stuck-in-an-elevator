@@ -5,19 +5,27 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "standard": "^5.0.0"
+    "browserify": "^11.0.1",
+    "standard": "^5.0.0",
+    "tape": "^4.0.2",
+    "zuul": "^3.2.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/mafintosh/are-feross-and-mafintosh-stuck-in-an-elevator.git"
   },
   "scripts": {
-    "test": "standard"
+    "build": "browserify index.js -o browser.js -s areFerossAndMafintoshStuckInAnElevator",
+    "test": "standard && tape test/basic.js",
+    "test-sauce": "TRAVIS_BUILD_NUMBER=$RANDOM zuul -- test/basic.js"
   },
   "author": "Mathias Buus (@mafintosh)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mafintosh/are-feross-and-mafintosh-stuck-in-an-elevator/issues"
+  },
+  "standard": {
+    "ignore": [ "browser.js" ]
   },
   "homepage": "https://github.com/mafintosh/are-feross-and-mafintosh-stuck-in-an-elevator"
 }

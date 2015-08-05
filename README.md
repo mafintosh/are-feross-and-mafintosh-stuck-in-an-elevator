@@ -8,6 +8,8 @@ npm install are-feross-and-mafintosh-stuck-in-an-elevator
 
 [![build status](http://img.shields.io/travis/mafintosh/are-feross-and-mafintosh-stuck-in-an-elevator.svg?style=flat)](http://travis-ci.org/mafintosh/are-feross-and-mafintosh-stuck-in-an-elevator)
 
+[![Sauce Test Status](https://saucelabs.com/browser-matrix/LinusU.svg)](https://saucelabs.com/u/LinusU)
+
 ## Usage
 
 ``` js
