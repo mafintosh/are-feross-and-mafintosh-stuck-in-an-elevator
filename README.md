@@ -12,7 +12,7 @@ npm install are-feross-and-mafintosh-stuck-in-an-elevator
 
 ``` js
 var areFerossAndMafintoshStuckInAnElevator = require('are-feross-and-mafintosh-stuck-in-an-elevator')
-console.log(areFerossAndMafintoshStuckInAnElevator()) // returns false now because we've rescued!
+console.log(areFerossAndMafintoshStuckInAnElevator()) // returns false now because we've been rescued!
 ```
 
 ## License
