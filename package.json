@@ -6,7 +6,8 @@
   "dependencies": {},
   "devDependencies": {
     "browserify": "^11.0.1",
-    "standard": "^5.0.0"
+    "standard": "^5.0.0",
+    "tape": "^4.0.2"
   },
   "repository": {
     "type": "git",
@@ -14,7 +15,7 @@
   },
   "scripts": {
     "build": "browserify index.js -o browser.js -s areFerossAndMafintoshStuckInAnElevator",
-    "test": "standard"
+    "test": "standard && tape test/*.js"
   },
   "author": "Mathias Buus (@mafintosh)",
   "license": "MIT",
