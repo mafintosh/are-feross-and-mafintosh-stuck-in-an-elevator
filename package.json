@@ -1,7 +1,7 @@
 {
   "name": "are-feross-and-mafintosh-stuck-in-an-elevator",
   "version": "1.0.0",
-  "description": "WIP - nothing to see here",
+  "description": "Are @feross and @mafintosh stuck in an elevator?",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {},
