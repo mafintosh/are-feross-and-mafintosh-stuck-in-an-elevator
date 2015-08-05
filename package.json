@@ -4,10 +4,15 @@
   "description": "Are @feross and @mafintosh stuck in an elevator?",
   "main": "index.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "standard": "^5.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/mafintosh/are-feross-and-mafintosh-stuck-in-an-elevator.git"
+  },
+  "scripts": {
+    "test": "standard"
   },
   "author": "Mathias Buus (@mafintosh)",
   "license": "MIT",
