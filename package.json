@@ -1,6 +1,6 @@
 {
   "name": "are-feross-and-mafintosh-stuck-in-an-elevator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Are @feross and @mafintosh stuck in an elevator?",
   "main": "index.js",
   "dependencies": {},
